@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22cbe144f1fc1fd4782cbaaef8ae120e, type: 3}
+  m_Name: BlocksDataSo
+  m_EditorClassIdentifier: 
+  blocksList:
+  - ID: I Block
+    type: 0
+    blockStructure: 000100000100000100
+    blocksColor: {r: 1, g: 1, b: 1, a: 1}
+  - ID: O Block
+    type: 1
+    blockStructure: 010101010000000000
+    blocksColor: {r: 1, g: 1, b: 1, a: 1}
+  - ID: L Block
+    type: 2
+    blockStructure: 000100000100000101
+    blocksColor: {r: 1, g: 1, b: 1, a: 1}
+  - ID: T Block
+    type: 3
+    blockStructure: 010101000100000000
+    blocksColor: {r: 1, g: 1, b: 1, a: 1}
+  - ID: Z Block
+    type: 4
+    blockStructure: 000101000101000000
+    blocksColor: {r: 1, g: 1, b: 1, a: 1}
